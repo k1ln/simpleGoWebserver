@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	port := "1338"
+	port := "3001"
 	mydir, err := os.Getwd()
 	if err != nil {
 		fmt.Println(err)
